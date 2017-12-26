@@ -1,0 +1,369 @@
+﻿/****** reset ******/
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/***** Header *****/
+header .wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 123px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("../img/header-bg.png");
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+
+}
+
+nav li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px ;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+}
+
+a:hover{
+    color: rgb(26, 187, 156);
+}
+
+/***** Main *****/
+
+
+/* Slider */
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../img/slider-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.slider h2{
+    font-family: "Roboto Slab", sans-serif;
+    color:  #f3f3f3;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.slider h3{
+    font-family: "Roboto Slab", sans-serif;
+    color:  #a8a8a8;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.slider-button{
+    width: 140px;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 0px;
+    background-image: url("../img/button-bg.png");
+    
+}
+
+.slider-button a{
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    color:  rgba(255, 255, 255, 0.801);
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+/* Corps de page*/
+
+.container{
+    height: 950px;
+    width: 100%;
+}
+
+.service{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 275px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/********* Icônes des services **********/
+
+.square{
+    position: relative;
+    left: 59px;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: rgb(157, 154, 191);
+}
+
+.article-2 .square{
+    position: relative;
+    left:59px;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: rgb(210, 81, 75);
+}
+
+.article-4 .square{
+    position: relative;
+    left: 59px;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: rgb(231, 191, 79);
+}
+
+.square img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*******************************************/
+
+
+/*** Style des titres et textes des services ***/
+
+.container h4{
+    font-family: "Roboto Slab", sans-serif;
+    color:  #4e4e4e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+.container p{
+    font-family: "Roboto Condensed", sans-serif;
+    color:  #616161;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.service article{
+    width: 300px;
+    padding: 40px;
+}
+
+/**** Deuxieme partie du corps de page *****/
+
+hr{
+    color: rgb(220, 220, 220);
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.latest-works{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.title-latest-works{
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    color:  #4e4e4e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    
+}
+
+span{
+    font-family: "Roboto Slab", sans-serif;
+    color:  #a8a8a8;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: left;
+    margin: 0px;
+}
+
+.latest-works h4{
+    font-family: "Roboto Slab", sans-serif;
+    color:  #4e4e4e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    
+}
+
+.latest-works p{
+    font-family: "Roboto Condensed", sans-serif;
+    color:  #5c5c5c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.latest-works article{
+    width: 380px;
+}
+
+/**** Footer du container ****/
+
+.quote{
+    height: 230px;
+    width: 100%;
+    padding-top: 54px;
+    font-family: "Roboto Slab", sans-serif;
+    color:  rgb(177,177,177);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(239,239,239);
+}
+
+/***** Footer de page *****/
+
+footer{
+    display:flex;
+    flex-direction: column;
+    height: 459px;
+    width: 100%;
+    background-image: url("../img/footer-bg.png");
+    background-size: cover;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+footer .titre-col{
+    font-family: "Roboto Condensed", sans-serif;
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer section{
+    margin-top:50px;
+    height: 250px;
+    font-family: "Roboto Condensed", sans-serif;
+    color:  #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-right: 50px;
+
+}
+
+footer fa{
+    color: #a89574;
+}
+
+section{
+    width: 285px;
+}
+
+.footer-line{
+    color: rgba(255, 255, 255, 0.11);
+    width: 1170px;
+}
+
+.copyright{
+    font-family: "Roboto Condensed", sans-serif;
+    color:  #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 275px;
+    margin-top:-25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
